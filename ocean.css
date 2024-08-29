@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 94%;
+    padding: 40px;
+}
+.z{
+    position: relative;
+    top: 0;
+}
+.a{
+    display: flex;
+    width: 800px;
+    margin-left: 200px;
+    justify-content: space-between;
+    line-height: 10px;
+    padding: 20px;
+    
+    position: sticky;
+    top: 0;
+}
+.aa{
+    font-size: 50px;
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bb{
+    color: darkslategrey;
+
+    width: 800px;
+    margin-left: 200px;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c{
+    color: darkslategrey;
+    width: 800px;
+
+    margin-left: 200px;
+}
+.cc{
+    transition-duration: 0s;
+    transition-property: all;
+    transition-delay: 0s;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+     padding: 20px; 
+     background-color: azure; 
+     color: blue;
+}
+.cc:hover{
+    scale: 1.2;
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+.d{
+    transition-duration: 0.5s;
+    transition-property: all;
+    font-family: sans-serif;
+}
+.d:hover{
+    scale: 1.1;
+    background-color: whitesmoke;
+    color: turquoise;
+    padding: 10px;
+}
+.dd{
+    width: 800px;
+    margin-left: 200px;
+
+    padding: 40px;
+}
+.e{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    align-content: center;
+}
+.ee{
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 34px;
+}
+.ee:hover{
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    scale: 1.1;
+}
+.f{
+    margin-top: 40px;
+    background-color: darkslateblue;
+    padding: 40px;
+    color: white;
+}
+.ff{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 15px;
+    align-content: center;
+}
